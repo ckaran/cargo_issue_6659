@@ -1,5 +1,5 @@
 [package]
-name = "rustc_issue_report_cdylib"
+name = "cargo_issue_6659"
 version = "0.1.0"
 authors = ["Cem Karan <cem.f.karan.civ@mail.mil>"]
 edition = "2018"
@@ -7,4 +7,6 @@ edition = "2018"
 [dependencies]
 
 [lib]
+# If you comment the following line out, the integration tests will work as
+# expected.  As this line is right now, it will not work.
 crate-type = ["cdylib"]
