@@ -1,0 +1,10 @@
+[package]
+name = "rustc_issue_report_cdylib"
+version = "0.1.0"
+authors = ["Cem Karan <cem.f.karan.civ@mail.mil>"]
+edition = "2018"
+
+[dependencies]
+
+[lib]
+crate-type = ["cdylib"]
