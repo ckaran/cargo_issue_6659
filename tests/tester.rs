@@ -1,4 +1,4 @@
-extern crate rustc_issue_report_cdylib;
+extern crate cargo_issue_6659;
 
 #[test]
 fn it_works() {
